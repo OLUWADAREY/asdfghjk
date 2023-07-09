@@ -9,7 +9,7 @@ from sklearn import metrics
 from sklearn.metrics import accuracy_score
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-st.title('Couples Therapy Divorce Predictions')
+st.title('Marital crisis prediction')
 
 @st.cache
 def read_data():
